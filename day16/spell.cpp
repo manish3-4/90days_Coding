@@ -38,6 +38,31 @@
 //         solve();
 //     }
 // }
+//leetcode submittion
+// class Solution {
+//  public:
+//   long long maximumTotalDamage(vector<int>& power) {
+//   sort(power.begin(), power.end());
+//     int n = power.size();
+//     vector<long long> dp(n, 0);
+//     int prev2 = -1, prev1=0;
+
+//     dp[0] = power[0];
+
+//     for(int i=1; i<n; i++){
+//         while(power[prev1] != power[i]) ++prev1;
+//         while(prev2 + 1 < i && power[prev2+1] < power[i] -2) ++prev2;
+
+//         if(prev2 == -1){
+//             dp[i] = max(dp[i-1], (long long) power[i] * (i-prev1 + 1));
+//         }else{
+//             dp[i] = max(dp[i-1], dp[prev2] + (long long) power[i] * (i-prev1 + 1));
+//         }
+
+//     }
+//     return dp[n-1];
+//   }
+// };
 
 
 #include <bits/stdc++.h>
