@@ -2,7 +2,7 @@ import java.io.File;
 
 public class CreateFolders {
     public static void main(String[] args) {
-        for (int i = 0; i <= 90; i++) {
+        for (int i = 0; i <= 100; i++) {
             String folderName = "day" + i;
             File folder = new File(folderName);
             if (folder.mkdir()) {

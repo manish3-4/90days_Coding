@@ -34,26 +34,25 @@ class GFG {
             String input = br.readLine();
             String[] inputs = input.split(" ");
             int[] arr = new int[inputs.length];
-
             for (int i = 0; i < inputs.length; i++) {
                 arr[i] = Integer.parseInt(inputs[i]);
             }
             Solution obj = new Solution();
             int res = obj.largest(arr);
-
-            System.out.println(res);
-
-            System.out.println("~");
-        }
-    }
-}
-
-// } Driver Code Ends
-
-
-
-class Solution {
-    public static int largest(int[] arr) {
+            
+                        System.out.println(res);
+            
+                        System.out.println("~");
+                    }
+                }
+            }
+            
+            // } Driver Code Ends
+            
+            
+            
+            class Solution {
+                public int largest(int[] arr) {
         
         // code here
         

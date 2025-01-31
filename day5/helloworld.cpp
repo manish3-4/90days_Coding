@@ -1,7 +1,9 @@
 
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
 
-int main()
+int32_t main()
 {
-    std::cout << "Hello World anju" << std::endl;
+    std::cout << "Hello World anju" << INT_MIN <<" "<< INT_MAX;
 }
