@@ -24,7 +24,7 @@ class Solution {
         }
     };
 
-    //leetcode
+    //leetcode.java
     class Solution {
         private int count = 0;
         private int result = -1;
