@@ -64,5 +64,4 @@ class Solution {
           }
           return maxlen;
       }
-  }
-;
+  };
